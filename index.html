@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic, research, and extracurricular project portfolio.">
+  <title>Your Name | Project Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#top">YOUR NAME</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#appendix">Project Appendix</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow">PROJECT PORTFOLIO</p>
+      <h1>School, research, club, and independent work.</h1>
+      <p class="hero-copy">
+        A collection of projects I have worked on, what I contributed,
+        what I learned, and the full work behind each one.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">Explore projects</a>
+        <a class="button secondary" href="#appendix">View full work</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects</h2>
+        <p>Click a project to open a detailed summary.</p>
+      </div>
+
+      <div class="filters" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="school">School</button>
+        <button class="filter" data-filter="research">Research</button>
+        <button class="filter" data-filter="club">Clubs</button>
+        <button class="filter" data-filter="personal">Personal</button>
+      </div>
+
+      <div class="project-list">
+
+        <!-- PROJECT 1: Duplicate this entire <details> block to add another project. -->
+        <details class="project-card" data-category="school">
+          <summary>
+            <div>
+              <div class="project-meta">
+                <span class="tag">School</span>
+                <span>2026</span>
+              </div>
+              <h3>Project Title One</h3>
+              <p class="project-preview">
+                One sentence explaining the problem, project, or result.
+              </p>
+            </div>
+            <span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+
+          <div class="project-details">
+            <div class="detail-grid">
+              <div>
+                <h4>Overview</h4>
+                <p>
+                  Give a concise explanation of the project: what the assignment
+                  or goal was, the context, and why it mattered.
+                </p>
+              </div>
+              <div>
+                <h4>My role</h4>
+                <p>
+                  Explain exactly what you did. For group projects, distinguish
+                  your contribution from the team's work.
+                </p>
+              </div>
+              <div>
+                <h4>Process</h4>
+                <p>
+                  Describe the methods, tools, research, experiments, design
+                  decisions, or analysis you used.
+                </p>
+              </div>
+              <div>
+                <h4>Outcome</h4>
+                <p>
+                  Summarize the final result, what you learned, and any concrete
+                  outcome such as a grade, presentation, finding, or deliverable.
+                </p>
+              </div>
+            </div>
+
+            <div class="skills">
+              <span>Skill / Tool</span>
+              <span>Skill / Tool</span>
+              <span>Skill / Tool</span>
+            </div>
+
+            <a class="text-link" href="#appendix-project-1">
+              See full project in appendix →
+            </a>
+          </div>
+        </details>
+
+        <!-- PROJECT 2 -->
+        <details class="project-card" data-category="research">
+          <summary>
+            <div>
+              <div class="project-meta">
+                <span class="tag">Research</span>
+                <span>2026</span>
+              </div>
+              <h3>Project Title Two</h3>
+              <p class="project-preview">
+                A short description that makes someone want to expand the project.
+              </p>
+            </div>
+            <span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+
+          <div class="project-details">
+            <div class="detail-grid">
+              <div>
+                <h4>Overview</h4>
+                <p>What question or problem did this project address?</p>
+              </div>
+              <div>
+                <h4>My role</h4>
+                <p>What were you personally responsible for?</p>
+              </div>
+              <div>
+                <h4>Process</h4>
+                <p>What methods, software, equipment, or techniques did you use?</p>
+              </div>
+              <div>
+                <h4>Outcome</h4>
+                <p>What did the work produce, demonstrate, or teach you?</p>
+              </div>
+            </div>
+
+            <div class="skills">
+              <span>Research</span>
+              <span>Data Analysis</span>
+              <span>Communication</span>
+            </div>
+
+            <a class="text-link" href="#appendix-project-2">
+              See full project in appendix →
+            </a>
+          </div>
+        </details>
+
+        <!-- PROJECT 3 -->
+        <details class="project-card" data-category="club">
+          <summary>
+            <div>
+              <div class="project-meta">
+                <span class="tag">Club</span>
+                <span>2026</span>
+              </div>
+              <h3>Project Title Three</h3>
+              <p class="project-preview">
+                A club, leadership, event, campaign, or community project.
+              </p>
+            </div>
+            <span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+
+          <div class="project-details">
+            <div class="detail-grid">
+              <div>
+                <h4>Overview</h4>
+                <p>Explain the initiative and who it served.</p>
+              </div>
+              <div>
+                <h4>My role</h4>
+                <p>Describe your leadership, organization, or creative contribution.</p>
+              </div>
+              <div>
+                <h4>Process</h4>
+                <p>Explain how you planned and executed the project.</p>
+              </div>
+              <div>
+                <h4>Outcome</h4>
+                <p>Include participation, impact, feedback, or other results if available.</p>
+              </div>
+            </div>
+
+            <div class="skills">
+              <span>Leadership</span>
+              <span>Project Management</span>
+              <span>Teamwork</span>
+            </div>
+
+            <a class="text-link" href="#appendix-project-3">
+              See full project in appendix →
+            </a>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <section id="appendix" class="section appendix-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FULL WORK</p>
+          <h2>Project Appendix</h2>
+          <p>
+            Full reports, presentations, posters, papers, code, and other project
+            materials can be stored here.
+          </p>
+        </div>
+
+        <div class="appendix-grid">
+          <article class="appendix-card" id="appendix-project-1">
+            <p class="appendix-number">01</p>
+            <h3>Project Title One</h3>
+            <p>Full report / paper / presentation.</p>
+            <!-- Replace # with something like project-files/project-one.pdf -->
+            <a href="#" target="_blank" rel="noopener">Open full project ↗</a>
+          </article>
+
+          <article class="appendix-card" id="appendix-project-2">
+            <p class="appendix-number">02</p>
+            <h3>Project Title Two</h3>
+            <p>Full report, poster, code repository, or other deliverable.</p>
+            <a href="#" target="_blank" rel="noopener">Open full project ↗</a>
+          </article>
+
+          <article class="appendix-card" id="appendix-project-3">
+            <p class="appendix-number">03</p>
+            <h3>Project Title Three</h3>
+            <p>Full event plan, presentation, campaign, or project documentation.</p>
+            <a href="#" target="_blank" rel="noopener">Open full project ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Want to know more?</h2>
+      <p>
+        Add a short closing statement here and links to your email, LinkedIn,
+        GitHub profile, résumé, or other professional pages.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com">Email</a>
+        <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© <span id="year"></span> Your Name</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
